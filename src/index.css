@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,59 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  box-sizing: border-box;
+  background-color: #d2dbdd;
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", "Arial Narrow", Arial, Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+color: white;
+background: transparent;
+text-shadow: 0 2px 2px black;
+}
+
+input{
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 20px 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+
+}
+
+div{
+  width: 100%;
+  height: 100vh;
+  background: #8e44ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basicForm{
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.formButton {
+  line-height: 24px;
+  padding: 0 20px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
